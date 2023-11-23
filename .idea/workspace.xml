@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f81b566d-be87-498b-9071-8794d76df220" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/amplify.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+    <list default="true" id="f81b566d-be87-498b-9071-8794d76df220" name="Changes" comment="[Feat] Encode &amp; Decode &amp; Copy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(home)/(components)/Convert.form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(home)/(components)/Convert.form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(home)/(components)/Mode.cookie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(home)/(components)/Mode.cookie.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(home)/(components)/Mode.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(home)/(components)/Mode.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/convert/Base64.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/convert/Base64.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/localstorage/Localstorage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/localstorage/LocalStorage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,12 +89,35 @@
       <workItem from="1700742482664" duration="1090000" />
       <workItem from="1700743891065" duration="18000" />
       <workItem from="1700744271229" duration="44000" />
-      <workItem from="1700744328557" duration="2246000" />
+      <workItem from="1700744328557" duration="2663000" />
     </task>
+    <task id="LOCAL-00001" summary="[Feat] Encode &amp; Decode &amp; Copy">
+      <created>1700746649828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700746649828</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Feat] Encode &amp; Decode &amp; Copy" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Feat] Encode &amp; Decode &amp; Copy" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
