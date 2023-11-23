@@ -1,6 +1,6 @@
 'use client';
 import { z } from 'zod';
-import LocalStorage from '@/services/localstorage/Localstorage';
+import LocalStorage from '@/services/localstorage/LocalStorage';
 
 export const modeSchema = z.union([z.literal('decode'), z.literal('encode')]);
 
@@ -18,8 +18,4 @@ export const getConvertMode = (): IMode | null => {
 
 export const setConvertMode = (mode: IMode) => {
   LocalStorage.setItem('mode', mode);
-  // setLocalStorage({
-  //   key: 'mode',
-  //   value: mode,
-  // });
 };

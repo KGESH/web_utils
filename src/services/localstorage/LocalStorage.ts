@@ -1,5 +1,4 @@
 class LocalStorage {
-  constructor() {}
 
   static setItem(key: string, value: string) {
     if (typeof window !== 'undefined') {

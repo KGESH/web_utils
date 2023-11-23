@@ -1,12 +1,15 @@
 'use client';
-
 import { ChangeEvent } from 'react';
 import { modeSchema, setConvertMode } from '@/app/(home)/(components)/Mode.cookie';
+import { useRouter } from 'next/navigation';
 
 export default function Mode() {
+
+  const router = useRouter();
   const handleMode = (e: ChangeEvent<HTMLInputElement>) => {
     const mode = modeSchema.parse(e.target.value);
     setConvertMode(mode);
+    router.refresh();
   };
 
   return (

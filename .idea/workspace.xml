@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f81b566d-be87-498b-9071-8794d76df220" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amplify.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(home)/(components)/Convert.form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(home)/(components)/Convert.form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(home)/(components)/Mode.cookie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(home)/(components)/Mode.cookie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(home)/(components)/Mode.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(home)/(components)/Mode.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/convert/Base64.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/convert/Base64.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/localstorage/Localstorage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/localstorage/LocalStorage.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +41,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "//wsl$/Ubuntu/home/jee/base64/web_utils",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "wsl://Ubuntu@/home/jee/.nvm/versions/node/v21.2.0/bin/node",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "\\\\wsl$\\Ubuntu\\home\\jee\\base64\\web_utils\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "configurable.group.tools",
-    "ts.external.directory.path": "C:\\Users\\baamk\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\231.9011.34\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/home/jee/base64/web_utils&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu@/home/jee/.nvm/versions/node/v21.2.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;\\\\wsl$\\Ubuntu\\home\\jee\\base64\\web_utils\\node_modules\\prettier&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\baamk\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\231.9011.34\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="\\wsl$\Ubuntu\home\jee\base64\web_utils\src" />
@@ -72,7 +75,7 @@
       <scripts>
         <script value="dev" />
       </scripts>
-      <node-interpreter value="project" />
+      <node-interpreter value="wsl://Ubuntu@/home/jee/.nvm/versions/node/v21.2.0/bin/node" />
       <envs />
       <method v="2" />
     </configuration>
@@ -86,7 +89,13 @@
       <option name="presentableId" value="Default" />
       <updated>1700725651258</updated>
       <workItem from="1700725652295" duration="9211000" />
-      <workItem from="1700735022857" duration="1632000" />
+      <workItem from="1700735022857" duration="2924000" />
+      <workItem from="1700741065583" duration="385000" />
+      <workItem from="1700741464297" duration="985000" />
+      <workItem from="1700742482664" duration="1090000" />
+      <workItem from="1700743891065" duration="18000" />
+      <workItem from="1700744271229" duration="44000" />
+      <workItem from="1700744328557" duration="2246000" />
     </task>
     <servers />
   </component>
