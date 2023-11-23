@@ -6,7 +6,7 @@ import { getConvertMode, IMode } from '@/app/(home)/(components)/Mode.cookie';
 
 export default function Mode() {
   const router = useRouter();
-  const mode =  getConvertMode()
+  const mode =  getConvertMode() ?? 'decode';
 
   const handleMode = (e: ChangeEvent<HTMLInputElement>) => {
     const mode = modeSchema.parse(e.target.value);
