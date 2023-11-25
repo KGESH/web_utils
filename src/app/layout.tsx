@@ -6,7 +6,7 @@ import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: 'Base64 Encode and Decode Online Tool - Free & Easy to Use',
-  description: `Use our free online Base64 Encoder/Decoder tool for quick and easy conversion of text. Efficient and user-friendly, it's perfect for developers and anyone needing Base64 encoding or decoding services. Supports a variety of formats and offers fast, reliable results.`,
+  description: `Use our free online Base64 Encoder/Decoder tool for quick and easy conversion of text. Automatically copy to clipboard after encoding or decoding. Efficient and user-friendly, it's perfect for developers and anyone needing Base64 encoding or decoding services. Supports a variety of formats and offers fast, reliable results.`,
   keywords: [
     'Base64',
     'Base64 encode',
