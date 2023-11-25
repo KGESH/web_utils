@@ -62,7 +62,7 @@ export default function ConvertForm({}: Props) {
         return (
           <>
             <button type="submit" className="btn btn-success">
-              Encode & Copy
+              Encode & Copy Result
             </button>
 
             <button

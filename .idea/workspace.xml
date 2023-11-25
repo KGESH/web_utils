@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f81b566d-be87-498b-9071-8794d76df220" name="Changes" comment="[Style] Code formatting">
-      <change afterPath="$PROJECT_DIR$/src/components/footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/localstorage/LocalStorage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/localstorage/LocalStorage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-    </list>
+    <list default="true" id="f81b566d-be87-498b-9071-8794d76df220" name="Changes" comment="[Feat] Add footer" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +102,7 @@
       <workItem from="1700834509988" duration="43000" />
       <workItem from="1700834580478" duration="2325000" />
       <workItem from="1700893675965" duration="29000" />
-      <workItem from="1700893713449" duration="1699000" />
+      <workItem from="1700893713449" duration="2098000" />
     </task>
     <task id="LOCAL-00001" summary="[Feat] Encode &amp; Decode &amp; Copy">
       <created>1700746649828</created>
@@ -148,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700836513716</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[Feat] Add footer">
+      <option name="closed" value="true" />
+      <created>1700896822972</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700896822972</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +170,8 @@
     <MESSAGE value="[Chore] Downgrade to NextJS 13.5.4" />
     <MESSAGE value="[Feat] Default check" />
     <MESSAGE value="[Style] Code formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Style] Code formatting" />
+    <MESSAGE value="[Feat] Add footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Feat] Add footer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
