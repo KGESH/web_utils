@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f81b566d-be87-498b-9071-8794d76df220" name="Changes" comment="[Refactor] Change SEO metadata">
-      <change afterPath="$PROJECT_DIR$/public/tool.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tool.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/tool.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/tool.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f81b566d-be87-498b-9071-8794d76df220" name="Changes" comment="[Feat] Add favicon">
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/jee/dev/web_utils/public",
+    "last_opened_file_path": "/Users/jee/dev/web_utils/src/app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -114,7 +109,7 @@
       <workItem from="1700834509988" duration="43000" />
       <workItem from="1700834580478" duration="2325000" />
       <workItem from="1700893675965" duration="29000" />
-      <workItem from="1700893713449" duration="2800000" />
+      <workItem from="1700893713449" duration="3484000" />
     </task>
     <task id="LOCAL-00001" summary="[Feat] Encode &amp; Decode &amp; Copy">
       <created>1700746649828</created>
@@ -176,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700897327993</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[Feat] Add favicon">
+      <option name="closed" value="true" />
+      <created>1700897977809</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700897977809</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +204,8 @@
     <MESSAGE value="[Feat] Add footer" />
     <MESSAGE value="[Refactor] Change copy text" />
     <MESSAGE value="[Refactor] Change SEO metadata" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Refactor] Change SEO metadata" />
+    <MESSAGE value="[Feat] Add favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Feat] Add favicon" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
