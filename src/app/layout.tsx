@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import Nav from '@/components/nav/Nav';
+import Footer from '@/components/footer/Footer';
 
 export const metadata: Metadata = {
   title: 'Base64 Encode and Decode Online Tool - Free & Easy to Use',
@@ -32,10 +33,11 @@ export const metadata: Metadata = {
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html>
       <body>
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );
